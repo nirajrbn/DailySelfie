@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <!-- Camera, should appear as action button -->
+    <item android:id="@+id/action_camera"
+        android:icon="@drawable/camera_ico"
+        android:title="@string/action_camera"
+        yourapp:showAsAction="ifRoom" />
+
+</menu>
